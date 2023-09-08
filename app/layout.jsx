@@ -7,8 +7,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className='bg-white'>
-      <body className="bg-[#3A81F7] max-w-3xl h-screen flex flex-col items-center pt-8">{children}</body>
+    <html lang="en" className=''>
+      <head>
+      </head>
+      <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/qicon.png"></link>
+    <meta name="theme-color" content="rgb(243 244 246)" />
+      <body className="bg-[#3A81F7] max-w-md h-screen flex flex-col items-center">
+        <main className='w-full h-screen'>
+        {children}
+        </main>
+        </body>
     </html>
   )
 }

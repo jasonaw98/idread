@@ -3,6 +3,22 @@
 @tailwind utilities;
 
 
-body {
+.general-button {
+    /* width: 100%; */
+    color: white;
+    background-color: #3A81F7;
+    padding-right: 7rem;
+    padding-left: 7rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
 
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
 }
