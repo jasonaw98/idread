@@ -51,7 +51,7 @@ const Signup = () => {
             </span>
             <input
               type="tel"
-              className="rounded-r-2xl pl-4 bg-gray-100 w-48 rounded-l-none"
+              className="rounded-r-2xl pl-4 bg-gray-200 w-48 rounded-l-none"
               placeholder="11-627 5223"
             />
           </div>

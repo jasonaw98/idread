@@ -3,7 +3,7 @@ const Account = () => {
   return (
     <>
     <div className="flex w-full mt-8 mb-6 justify-center font-semibold text-white text-2xl">My Account</div>
-    <div className="flex flex-col w-full h-full bg-gray-100 pt-8">
+    <div className="flex flex-col w-full h-full bg-gray-100 pt-4">
         <div className="flex w-full flex-col px-12 text-lg">
             <div className="flex flex-col py-6">
                 <p className="text-gray-500">Username</p>

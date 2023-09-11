@@ -12,8 +12,8 @@ const Signin = () => {
         </div>
 
     <div className='w-full flex flex-col pt-8 px-12 justify-center'>
-  <input type="text" className="rounded-lg pl-4 bg-gray-100 min-w-[280px] h-10" placeholder="IDR Number/Mobile"/>
-  <input type="password" className="rounded-lg pl-4 bg-gray-100 min-w-[280px] h-10 mt-8" placeholder="Password"/>
+  <input type="text" className="rounded-lg pl-4 bg-gray-200 min-w-[280px] h-10" placeholder="IDR Number/Mobile"/>
+  <input type="password" className="rounded-lg pl-4 bg-gray-200 min-w-[280px] h-10 mt-8" placeholder="Password"/>
     </div>
 <Link href="/otp-signin">
 <button className='mt-16 general-button'>Sign In</button>

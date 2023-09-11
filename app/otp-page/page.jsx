@@ -53,7 +53,7 @@ const Signup = () => {
             key={index}
             ref={input => inputs.current[index] = input}
             type="number"
-            className="rounded-full bg-sky-50 h-14 w-14 text-center"
+            className="rounded-full bg-gray-300 h-14 w-14 text-center"
             maxLength={1} // Limit input to one character
             onInput={event => handleInput(index, event)}
           />

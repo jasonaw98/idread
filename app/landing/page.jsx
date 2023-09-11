@@ -22,7 +22,7 @@ const Landing = () => {
 
   return (
     <div className="font-bold text-[26px] flex flex-col items-center text-white h-full w-full pt-8">
-        <div className="items-center flex flex-col justify-center h-full">
+        <div className="items-center flex flex-col justify-center h-full font-semibold">
         <h1>{text[first].top}</h1>
         <h1>{text[first].bot}</h1>
         </div>
@@ -36,20 +36,20 @@ const Landing = () => {
 
         <div className="flex justify-between items-center w-full px-8 pb-16">
           <Link href="/signin">
-            <p className="text-gray-300 cursor-pointer font-semibold">Skip</p>
+            <p className="cursor-pointer font-normal text-blueish_grayey">Skip</p>
           </Link>
             <span className="flex justify-between w-[5rem]">
             {text.map((_, index) => (
             <span
               key={index}
               className={`h-4 w-4 rounded-full ${
-                index === first ? 'bg-emerald-400' : 'bg-gray-300'
+                index === first ? 'bg-white' : 'bg-blueish_gray'
               }`}
               onClick={() => handleChangeText(index)}
             ></span>
           ))}
             </span>
-            <p className="text-emerald-400 cursor-pointer font-semibold" onClick={handleNext}>Next</p>
+            <p className="text-white cursor-pointer font-semibold" onClick={handleNext}>Next</p>
         </div>
     </div>
   )

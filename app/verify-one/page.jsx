@@ -5,7 +5,7 @@ const VerifyOne = () => {
         <div className='w-full h-full flex flex-col items-center bg-gray-100 pt-8'>
             <div className="text-center">
           <h1 className="font-semibold text-[22px]">
-            Getting Started
+            Identification
           </h1>
         </div>
 
@@ -46,11 +46,11 @@ const VerifyOne = () => {
             <path fill="#2583ef" d="M8,0C3.582,0,0,3.582,0,8s3.582,8,8,8s8-3.582,8-8S12.418,0,8,0z"></path><polygon fill="#fff" points="7,12 3.48,8.48 4.894,7.066 7,9.172 11.71,4.462 13.124,5.876"></polygon>
         </svg>
         </span>
-        <p className="text-blue-500 font-semibold pt-3">Step 1: Submit ID Card</p>
+        <p className="text-blue-500 font-semibold pt-3">Step 2: Take a Selfie</p>
        </div>
     </div>
     
-    <Link href="/document-1">
+    <Link href="/homepage">
     <button className='mt-16 general-button'>Submit</button>
     </Link>
     

@@ -9,7 +9,7 @@ const User = () => {
                     <h1 className="text-center text-2xl font-semibold">Profile</h1>
                 </div>
 
-                <div className="flex w-full mt-4">
+                <div className="flex w-full mt-6">
                     <span className="px-2"><Image src="/use.png" width={60} height={50} /></span>
                     <div className="flex flex-col ml-4 justify-center">
                         <p className="font-semibold text-lg">Najib Bin Razak</p>
@@ -17,7 +17,7 @@ const User = () => {
                     </div>
                 </div>
 
-                <div className="w-full flex flex-col mt-8 px-4">
+                <div className="w-full flex flex-col mt-8 px-0">
                     <Link href="/user/account" className="flex w-full h-12 bg-white rounded-2xl items-center drop-shadow-md mb-4">
                         <span className="w-1/4 justify-center flex"><svg width="30" height="30" fill="#3A81F7" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                             <path clipRule="evenodd" fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-5.5-2.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zM10 12a5.99 5.99 0 00-4.793 2.39A6.483 6.483 0 0010 16.5a6.483 6.483 0 004.793-2.11A5.99 5.99 0 0010 12z" />
@@ -76,7 +76,7 @@ const User = () => {
                             />
                         </svg>
                     </Link>
-                    <Link href={"/"} className="flex flex-col w-12 pb-0 justify-center items-center">
+                    <Link href={"/wallet"} className="flex flex-col w-12 pb-0 justify-center items-center">
                         <svg
                             width="30"
                             height="30"
@@ -88,7 +88,7 @@ const User = () => {
                             <path d="M1 4.25a3.733 3.733 0 012.25-.75h13.5c.844 0 1.623.279 2.25.75A2.25 2.25 0 0016.75 2H3.25A2.25 2.25 0 001 4.25zM1 7.25a3.733 3.733 0 012.25-.75h13.5c.844 0 1.623.279 2.25.75A2.25 2.25 0 0016.75 5H3.25A2.25 2.25 0 001 7.25zM7 8a1 1 0 011 1 2 2 0 104 0 1 1 0 011-1h3.75A2.25 2.25 0 0119 10.25v5.5A2.25 2.25 0 0116.75 18H3.25A2.25 2.25 0 011 15.75v-5.5A2.25 2.25 0 013.25 8H7z" />
                         </svg>
                     </Link>
-                    <Link href={"/"} className="rounded-full w-[60px] h-[60px] bg-blue-500 flex justify-center items-center mt-[-24px] border-gray-200 border-[6px]">
+                    <Link href={"/qrcode"} className="rounded-full w-[60px] h-[60px] bg-blue-500 flex justify-center items-center mt-[-24px] border-gray-200 border-[6px]">
                         <Image
                             src="/qicon.png"
                             width={30}

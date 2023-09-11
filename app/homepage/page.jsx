@@ -58,12 +58,15 @@ const Homepage = () => {
         </div>
 
         <div className="flex flex-col w-full px-4 mt-6 justify-center">
-          <div className="w-full h-32 bg-white rounded-3xl flex flex-col justify-center items-center shadow-l drop-shadow-xl">
+          <div className="w-screen h-32 rounded-3xl flex flex-col justify-center items-center drop-shadow-xl ml-[-49px]">
             <Image
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMxDL2CowA5QQ0BVOnG7IPJdRgemKb2fvQHg&usqp=CAU"
-              width={180}
-              height={20}
+              src="https://i.pinimg.com/564x/74/29/b5/7429b509f19d4469113d511cb9fcb92e.jpg"
+              width={0}
+              height={0}
               alt="doc"
+              sizes="90vw"
+              style={{ width: '100%', height: 'auto' }}
+              className="rounded-3x"
             ></Image>
             {/* <h1 className="font-semibold text-[20px]">Insert Banner</h1> */}
           </div>
@@ -107,19 +110,17 @@ const Homepage = () => {
             </div>
           </div>
 
-          <div className="w-full h-14 bg-slate-300 rounded-full grid grid-cols-2 content-center gap-x-4 px-2 mt-4">
+          <div className="w-full h-12 bg-slate-300 rounded-full grid grid-cols-2 content-center gap-x-4 px-2 mt-6">
             <span
-              className={`h-10 flex items-center justify-center rounded-full ${
-                all ? "bg-white" : ""
-              }`}
+              className={`h-8 flex items-center justify-center rounded-full ${all ? "bg-white" : ""
+                }`}
               onClick={handleUnread}
             >
               Unread
             </span>
             <span
-              className={`h-10 flex items-center justify-center rounded-full ${
-                all ? "" : "bg-white"
-              }`}
+              className={`h-8 flex items-center justify-center rounded-full ${all ? "" : "bg-white"
+                }`}
               onClick={handleUnread}
             >
               All
@@ -127,18 +128,17 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-full mt-5">
+        <div className="flex flex-col w-full mt-8">
           <div className="flex w-full justify-between">
             <p className="text-sm">From: Hong Leong Bank</p>
-            <span className="bg-blue-500 text-white rounded-full px-2 text-sm">
+            <span className="bg-blue-500 text-white rounded-full px-2 text-xs flex items-center">
               See More
             </span>
           </div>
 
           <div
-            className={`flex rounded-2xl shadow-md ${
-              read ? "bg-white" : "bg-slate-200"
-            } drop-shadow-md items-center mt-4 pt-2 pb-3 pr-4`}
+            className={`flex rounded-2xl shadow-md ${read ? "bg-white" : "bg-slate-200"
+              } drop-shadow-md items-center mt-4 pt-2 pb-3 pr-4`}
             onClick={handleNoti}
           >
             {read ? (
@@ -187,7 +187,7 @@ const Homepage = () => {
               />
             </svg>
           </div>
-          <Link href={"/"} className="flex flex-col w-12 pb-0 justify-center items-center">
+          <Link href={"/wallet"} className="flex flex-col w-12 pb-0 justify-center items-center">
             <svg
               width="30"
               height="30"
@@ -199,7 +199,7 @@ const Homepage = () => {
               <path d="M1 4.25a3.733 3.733 0 012.25-.75h13.5c.844 0 1.623.279 2.25.75A2.25 2.25 0 0016.75 2H3.25A2.25 2.25 0 001 4.25zM1 7.25a3.733 3.733 0 012.25-.75h13.5c.844 0 1.623.279 2.25.75A2.25 2.25 0 0016.75 5H3.25A2.25 2.25 0 001 7.25zM7 8a1 1 0 011 1 2 2 0 104 0 1 1 0 011-1h3.75A2.25 2.25 0 0119 10.25v5.5A2.25 2.25 0 0116.75 18H3.25A2.25 2.25 0 011 15.75v-5.5A2.25 2.25 0 013.25 8H7z" />
             </svg>
           </Link>
-          <Link href={"/"} className="rounded-full w-[60px] h-[60px] bg-blue-500 flex justify-center items-center mt-[-24px] border-gray-200 border-[6px]">
+          <Link href={"/qrcode"} className="rounded-full w-[60px] h-[60px] bg-blue-500 flex justify-center items-center mt-[-24px] border-gray-200 border-[6px]">
             <Image
               src="/qicon.png"
               width={30}

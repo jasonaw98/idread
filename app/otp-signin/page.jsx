@@ -17,14 +17,14 @@ const Signup = () => {
 
   return (
     <>
-    <div className='w-full h-full flex flex-col items-center bg-gray-100 pt-8'>
+    <div className='w-full h-full flex flex-col items-center bg-gray-100 pt-12'>
        <div className="text-center">
-          <h1 className="font-semibold text-[22px]">
+          <h1 className="font-semibold text-[22px] text-blue-500">
             Welcome Back !
           </h1>
         </div>
 
-        <div className='text-center mt-16'>
+        <div className='text-center mt-12'>
         <h1 className="font-semibold text-[24px]">OTP Verification</h1>
         <p className="text-[13px] text-gray-500">Enter OTP number sent to your mobile</p>
         </div>
@@ -36,7 +36,7 @@ const Signup = () => {
             key={index}
             ref={input => inputs.current[index] = input}
             type="number"
-            className="rounded-full bg-sky-50 h-14 w-14 text-center"
+            className="rounded-full bg-gray-300 h-14 w-14 text-center"
             maxLength={1} // Limit input to one character
             onInput={event => handleInput(index, event)}
           />
