@@ -58,17 +58,15 @@ const Homepage = () => {
         </div>
 
         <div className="flex flex-col w-full px-4 mt-6 justify-center">
-          <div className="w-screen h-32 rounded-3xl flex flex-col justify-center items-center drop-shadow-xl ml-[-49px]">
-            <Image
-              src="https://i.pinimg.com/564x/74/29/b5/7429b509f19d4469113d511cb9fcb92e.jpg"
-              width={0}
-              height={0}
-              alt="doc"
-              sizes="90vw"
-              style={{ width: '100%', height: 'auto' }}
-              className="rounded-3x"
-            ></Image>
-            {/* <h1 className="font-semibold text-[20px]">Insert Banner</h1> */}
+          <div className="w-full h-32 bg-white rounded-3xl flex justify-evenly items-center drop-shadow-xl">
+          <Image
+                  src="https://i.dailymail.co.uk/i/pix/2014/01/09/article-2536381-1A83FF9500000578-710_306x423.jpg"
+                  width={70}
+                  height={70}
+                  alt="doc"
+                  className="mt-0"
+                />
+            <h1 className="font-semibold text-[20px] w-2/4 text-center">SOCSO Identity Document</h1>
           </div>
 
           <div className="flex w-full justify-evenly pt-6">
@@ -84,7 +82,7 @@ const Homepage = () => {
               </span>
               <p>PERKESO</p>
             </div>
-            <div className="flex flex-col w-24 items-center">
+            {/* <div className="flex flex-col w-24 items-center">
               <span className="bg-white rounded-full w-fit pt-2 pb-2 pl-2 pr-2">
                 <Image
                   src="/epf.png"
@@ -107,7 +105,7 @@ const Homepage = () => {
                 />
               </span>
               <p>BANKS</p>
-            </div>
+            </div> */}
           </div>
 
           <div className="w-full h-12 bg-slate-300 rounded-full grid grid-cols-2 content-center gap-x-4 px-2 mt-6">
@@ -201,7 +199,7 @@ const Homepage = () => {
           </Link>
           <Link href={"/qrcode"} className="rounded-full w-[60px] h-[60px] bg-blue-500 flex justify-center items-center mt-[-24px] border-gray-200 border-[6px]">
             <Image
-              src="/qicon.png"
+              src="/qiconr.png"
               width={30}
               height={30}
               alt="doc"

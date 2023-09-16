@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
       <link rel="manifest" href="/manifest.json" />
     <link rel="apple-touch-icon" href="/qicon.png"></link>
     <meta name="theme-color" content="rgb(243 244 246)" />
-      <body className="bg-[#3A81F7] max-w-md h-screen flex flex-col items-center">
-        <main className='w-full h-screen'>
+      <body className="bg-[#3A81F7] w-screen h-screen flex flex-col items-center">
+        <main className=' max-w-md h-screen'>
         {children}
         </main>
         </body>

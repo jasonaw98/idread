@@ -10,7 +10,7 @@ const withPWA = require('next-pwa')({
 const nextConfig = {
   reactStrictMode: true,
     images: {
-        domains: ['img.icons8.com', 'i.pinimg.com'],
+        domains: ['img.icons8.com', 'i.dailymail.co.uk'],
       },
 }
 

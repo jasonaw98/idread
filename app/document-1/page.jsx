@@ -98,7 +98,7 @@ const page = () => {
             </Link>
             <Link href={"/qrcode"} className="rounded-full w-[60px] h-[60px] bg-blue-500 flex justify-center items-center mt-[-24px] border-gray-200 border-[6px]">
               <Image
-                src="/qicon.png"
+                src="/qiconr.png"
                 width={30}
                 height={30}
                 alt="doc"
