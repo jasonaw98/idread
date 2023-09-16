@@ -12,8 +12,8 @@ const User = () => {
                 <div className="flex w-full mt-6">
                     <span className="px-2"><Image src="/use.png" width={60} height={50} /></span>
                     <div className="flex flex-col ml-4 justify-center">
-                        <p className="font-semibold text-lg">Najib Bin Razak</p>
-                        <p>IDR: 60-010122-04-1313</p>
+                        <p className="font-semibold text-lg">Nurul Binti Aina</p>
+                        <p>IDR: 60-701201-01-5238</p>
                     </div>
                 </div>
 

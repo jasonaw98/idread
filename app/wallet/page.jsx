@@ -57,7 +57,7 @@ const Wallet = () => {
             <div className="w-full h-full flex flex-col bg-gray-100 rounded-3xl justify-between">
                 <div>
                     <div className="flex w-full px-8 text-whit font-semibold text-lg pt-3">
-                        <span className="">Pay Bills</span>
+                        <span className="">Bills</span>
                     </div>
 
                     <div className="flex w-full mt-3 relative justify-evenly">
@@ -67,7 +67,7 @@ const Wallet = () => {
                             </span>
                             <span className="text-[15px] font-semibold">PERKESO</span>
                         </Link>
-                        <div className="flex flex-col bg-white w-[90px] h-[80px] rounded-2xl justify-center items-center">
+                        {/* <div className="flex flex-col bg-white w-[90px] h-[80px] rounded-2xl justify-center items-center">
                             <span className="">
                                 <Image src="/epf.png" width={40} height={50} alt="flag" className="ml-0" />
                             </span>
@@ -78,7 +78,7 @@ const Wallet = () => {
                                 <Image src="/perkeso.png" width={50} height={50} alt="flag" className="ml-0" />
                             </span>
                             <span className="text-[15px] font-semibold">SOCSO</span>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="flex flex-col w-full mt-4">
@@ -86,27 +86,27 @@ const Wallet = () => {
                         <span className="w-full h-1 bg-gray-200 my-3"></span>
                         <div className="flex w-full px-8 justify-between">
                             <div className="flex flex-col">
-                                <span className="text-lg font-medium">Order Payment</span>
+                                <span className="text-lg font-medium">Socso Payment</span>
                                 <span className=" text-gray-500 text-sm">Remark: Order Payment</span>
                             </div>
                             <div className="flex flex-col items-end">
-                                <span className="text-lg font-semibold text-red-500">-400.00</span>
+                                <span className="text-lg font-semibold text-emerald-500">400.00</span>
                                 <span className=" text-gray-500 text-sm">13 Jul, 13:55</span>
                             </div>
                         </div>
                         <span className="w-full h-1 bg-gray-200 my-3"></span>
                         <div className="flex w-full px-8 justify-between">
                             <div className="flex flex-col">
-                                <span className="text-lg font-medium">EPF Deduction</span>
+                                <span className="text-lg font-medium">Insurance Payment</span>
                                 <span className=" text-gray-500 text-sm">Remark: EPF Deduction</span>
                             </div>
                             <div className="flex flex-col items-end">
-                                <span className="text-lg font-semibold text-red-500">-660.00</span>
+                                <span className="text-lg font-semibold text-emerald-500">660.00</span>
                                 <span className=" text-gray-500 text-sm">13 Jul, 13:55</span>
                             </div>
                         </div>
                         <span className="w-full h-1 bg-gray-200 my-3"></span>
-                        <div className="flex w-full px-8 justify-between">
+                        {/* <div className="flex w-full px-8 justify-between">
                             <div className="flex flex-col">
                                 <span className="text-lg font-medium">Tax Refund</span>
                                 <span className=" text-gray-500 text-sm">Remark: Tax refund</span>
@@ -115,8 +115,8 @@ const Wallet = () => {
                                 <span className="text-lg font-semibold text-emerald-500">+1356.75</span>
                                 <span className=" text-gray-500 text-sm">13 Jul, 13:55</span>
                             </div>
-                        </div>
-                        <span className="w-full h-1 bg-gray-200 my-3"></span>
+                        </div> */}
+                        {/* <span className="w-full h-1 bg-gray-200 my-3"></span> */}
                     </div>
                 </div>
 

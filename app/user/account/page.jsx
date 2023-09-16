@@ -7,23 +7,23 @@ const Account = () => {
         <div className="flex w-full flex-col px-12 text-lg">
             <div className="flex flex-col py-6">
                 <p className="text-gray-500">Username</p>
-                <p className="font-semibold">najibrazak</p>
+                <p className="font-semibold">nurulain</p>
             </div>
             <div className="flex flex-col py-6">
                 <p className="text-gray-500">Full Name</p>
-                <p className="font-semibold">Najib Razak Bin</p>
+                <p className="font-semibold">Nurul Binti Aina</p>
             </div>
             <div className="flex flex-col py-6">
                 <p className="text-gray-500">Email Address</p>
-                <p className="font-semibold">najibkor@gmail.com</p>
+                <p className="font-semibold">nurulbintiaina@gmail.com</p>
             </div>
             <div className="flex flex-col py-6">
                 <p className="text-gray-500">NRIC/Passport No.</p>
-                <p className="font-semibold">600423145252</p>
+                <p className="font-semibold">701201015238</p>
             </div>
             <div className="flex flex-col py-6">
                 <p className="text-gray-500">IDR Number</p>
-                <p className="font-semibold">0x0600423145252</p>
+                <p className="font-semibold">60701201015238</p>
             </div>
             <div className="flex flex-col py-6">
                 <p className="text-gray-500">Wallet Address</p>

@@ -39,7 +39,7 @@ const page = () => {
             <span>
               <Image src="/doc.png" width={50} height={50} alt="doc" className="mt-4" />
             </span>
-            <p className="font-semibold text-[14px]">license.pdf</p>
+            <p className="font-semibold text-[14px]">proposal.pdf</p>
           </div>
           <div className="w-[8rem] h-[8rem] bg-white rounded-2xl flex flex-col items-center justify-evenly mt-4 shadow-2xl">
             <span>
@@ -54,7 +54,7 @@ const page = () => {
             <span>
               <Image src="/doc.png" width={50} height={50} alt="doc" className="mt-4" />
             </span>
-            <p className="font-semibold text-[14px]">license.pdf</p>
+            <p className="font-semibold text-[14px]">premium.pdf</p>
           </div>
           <div className="w-[8rem] h-[8rem] bg-white rounded-2xl flex flex-col items-center justify-evenly mt-4 shadow-2xl">
             <span>

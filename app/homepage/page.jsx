@@ -19,7 +19,7 @@ const Homepage = () => {
       <div className="flex flex-col w-full px-8 pt-8">
         <div className="flex justify-between">
           <div className="flex flex-col">
-            <h1 className="font-semibold">Hello Ni Hao!</h1>
+            {/* <h1 className="font-semibold">Hello Ni Hao!</h1> */}
             <h1 className="text-blue-500 font-semibold text-lg">
               Welcome Back!
             </h1>
@@ -58,15 +58,22 @@ const Homepage = () => {
         </div>
 
         <div className="flex flex-col w-full px-4 mt-6 justify-center">
-          <div className="w-full h-32 bg-white rounded-3xl flex justify-evenly items-center drop-shadow-xl">
-          <Image
-                  src="https://i.dailymail.co.uk/i/pix/2014/01/09/article-2536381-1A83FF9500000578-710_306x423.jpg"
-                  width={70}
-                  height={70}
-                  alt="doc"
-                  className="mt-0"
-                />
-            <h1 className="font-semibold text-[20px] w-2/4 text-center">SOCSO Identity Document</h1>
+          <div className="w-full h-32 bg-white rounded-3xl flex flex-col items-center drop-shadow-xl">
+            <h1 className="font-semibold text-[15px] text-center mt-2">SOCSO Identity Document</h1>
+          <div className="flex w-full justify-evenly mt-2">
+            <Image
+                    src="https://png.pngtree.com/png-clipart/20221009/original/pngtree-face-hijab-muslim-template-png-image_8668214.png"
+                    width={70}
+                    height={60}
+                    alt="doc"
+                    className="mt-0"
+                  />
+              <div className="flex flex-col w-2/4 mt-2">
+                <h1 className="font-semibold text-[14px]">60701201015238</h1>
+                <h1 className="font-semibold text-[14px]">Nurul Binti Aina</h1>
+                <h1 className="font-semibold text-[14px]">Maybank Sdn Bhd</h1>
+              </div>
+          </div>
           </div>
 
           <div className="flex w-full justify-evenly pt-6">
@@ -128,7 +135,7 @@ const Homepage = () => {
 
         <div className="flex flex-col w-full mt-8">
           <div className="flex w-full justify-between">
-            <p className="text-sm">From: Hong Leong Bank</p>
+            <p className="text-sm">Claim Status:</p>
             <span className="bg-blue-500 text-white rounded-full px-2 text-xs flex items-center">
               See More
             </span>
@@ -145,7 +152,7 @@ const Homepage = () => {
               <span className="w-4 h-4 rounded-full bg-red-500 mx-4 border-2 border-red-300"></span>
             )}
             <div className="flex flex-col">
-              <p className="text-base font-semibold">Bank Statement</p>
+              <p className="text-base font-semibold">Claims Document</p>
               <p className="text-xs">
                 Enclosed in this message contains your....
               </p>
@@ -158,7 +165,7 @@ const Homepage = () => {
           >
             <span className="w-2 h-4 mx-2"></span>
             <div className="flex flex-col">
-              <p className="text-base font-semibold">Bank Statement</p>
+              <p className="text-base font-semibold">Hospital Documents</p>
               <p className="text-xs">
                 Enclosed in this message contains your....
               </p>
