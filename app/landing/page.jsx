@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { useState } from 'react'
+import Image from 'next/image'
 const Landing = () => {
     const [first, setFirst] = useState(0)
 
@@ -22,7 +23,10 @@ const Landing = () => {
 
   return (
     <div className="font-bold text-[26px] flex flex-col items-center text-white h-full w-full pt-8">
-        <div className="items-center flex flex-col justify-center h-full font-semibold">
+       <div className='flex w-full justify-center mt-28'>
+        <Image src="/word.png" width={170} height={100} alt="logo"></Image>
+        </div>
+        <div className="items-center flex flex-col h-full font-semibold mt-20">
         <h1>{text[first].top}</h1>
         <h1>{text[first].bot}</h1>
         </div>
